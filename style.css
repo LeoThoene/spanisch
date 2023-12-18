@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    gap: 10px;
+    background-color: rgb(34, 33, 37);
+    color: white;
+}
+
+button {
+    margin-left: 50px;
+    font-size: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(46, 61, 66);
+    color: white;
+    padding: 10px;
+    padding-inline: 20px;
+    transition: filter 0.2s ease-in-out;
+    width: 180px;
+}
+
+button:hover {
+    filter: brightness(150%);
+}

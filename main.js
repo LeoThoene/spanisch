@@ -10,8 +10,10 @@ const data = {
     traer: ['traje', 'trajiste', 'trajimos', 'trajisteis', 'trajeron'],
     ver: ['vi', 'viste', 'vio', 'vimos', 'visteis', 'vieron'],
     hacer: ['hice', 'hiciste', 'hizo', 'hicimos', 'hicisteis', 'hicieron'],
-    irSer: ['fui', 'fuiste', 'fue', 'fuimos', 'fuisteis', 'fueron'],
-    dar: ['di', 'diste', 'dio', 'dimos', 'disteis', 'dieron']
+    'ir/ser': ['fui', 'fuiste', 'fue', 'fuimos', 'fuisteis', 'fueron'],
+    dar: ['di', 'diste', 'dio', 'dimos', 'disteis', 'dieron'],
+    pagar: [ 'pagué', 'pagaste', 'pagó', 'pagamos', 'pagasteis', 'pagaron' ],
+    llegar: ['llegué', 'llegaste', 'llegó', 'llegamos', 'llegasteis', 'llegaron' ]
 }
 
 const per = ["yo", "tu", "él/ella", "nosotros", "vosotros", "ellos/ellas"]
